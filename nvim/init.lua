@@ -1,0 +1,21 @@
+-- Core
+require('core.lazy')
+require('core.config')
+require('core.mappings')
+require('core.colors')
+
+-- Plugins config
+require("plugins.telescope")
+require("plugins.lsp")
+require("plugins.mason")
+require("plugins.cmp")
+require("plugins.nulls")
+require("plugins.lualine")
+require("plugins.treesitter")
+require("plugins.toggleterm")
+require("plugins.outline")
+require("plugins.autopairs")
+require("plugins.autotag")
+require("plugins.neotree")
+require("plugins.buffline")
+require("plugins.gitsigns")
